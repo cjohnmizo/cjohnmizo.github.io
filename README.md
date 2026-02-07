@@ -41,5 +41,5 @@ Village directory & news mobile application built with Flutter.
 ---
 
 ## 📫 Contact
-📧 Email: your@email.com  
+📧 Email: johnchangsan39@email.com  
 💬 Open for freelance & collaboration
