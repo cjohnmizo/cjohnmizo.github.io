@@ -38,13 +38,10 @@ Developed websites for schools, organizations, and small businesses.
 ---
 
 ## 📊 GitHub Stats
-<p align="center">
-<img src="https://github-readme-stats.vercel.app/api?username=cjohnmizo&show_icons=true&theme=tokyonight&cache_seconds=86400"/>
-</p>
+![GitHub stats](https://github-readme-stats-one-bice.vercel.app/api?username=cjohnmizo&show_icons=true&theme=tokyonight)
 
-<p align="center">
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=cjohnmizo&layout=compact&theme=tokyonight&cache_seconds=86400"/>
-</p>
+![Top Langs](https://github-readme-stats-one-bice.vercel.app/api/top-langs/?username=cjohnmizo&layout=compact&theme=tokyonight)
+
 
 
 
