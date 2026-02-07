@@ -1,45 +1,57 @@
-# 👑 C. John (cjohnmizo)
+# 👑 C. John | Flutter & Web Developer
 
-## 💻 Developer Profile
-Flutter & WordPress Developer from India.  
-I build modern mobile apps, websites, and digital solutions for organizations and villages.
+## 💻 Professional Summary
+Passionate Flutter & WordPress developer focused on building modern mobile apps, websites, and digital solutions for organizations, schools, and villages.
+
+Open for job opportunities and freelance projects.
 
 ---
 
 ## 🚀 Skills
+### Mobile Development
 - Flutter & Dart
+- Supabase / Firebase
+- REST API Integration
+- Offline-first apps
+
+### Web Development
 - WordPress Development
 - HTML, CSS, JavaScript
-- Supabase / Firebase
+- Responsive design
+- Hosting & deployment
+
+### Tools
 - Git & GitHub
-- UI/UX Design
+- VS Code
+- Figma (basic)
+- Cloud hosting setup
 
 ---
 
-## 🏆 Featured Work
-### 📱 Liankhawpui App
-Village directory & news mobile application built with Flutter.
+## 🏆 Featured Projects
+### 📱 Liankhawpui Village App
+Smart village directory & news platform built with Flutter.
 
 ### 🌐 Website Development
-- School & organization websites
-- Portfolio websites
-- Small business websites
-
----
-
-## 💼 Services
-- Flutter app development
-- WordPress website creation
-- Website redesign
-- UI modernization
+Developed websites for schools, organizations, and small businesses.
 
 ---
 
 ## 📊 GitHub Stats
-![stats](https://github-readme-stats.vercel.app/api?username=cjohnmizo&show_icons=true&theme=tokyonight)
+![GitHub stats](https://github-readme-stats.vercel.app/api?username=cjohnmizo&show_icons=true&theme=tokyonight)
+
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=cjohnmizo&layout=compact&theme=tokyonight)
+
+---
+
+## 🎯 2026 Goals
+- Become full-stack mobile developer  
+- Work on real production apps  
+- Start freelance & remote work  
+- Build impactful digital solutions  
 
 ---
 
 ## 📫 Contact
-📧 Email: johnchangsan39@email.com  
-💬 Open for freelance & collaboration
+📧 johnchangsan39@gmail.com  
+💼 Open for job & freelance projects
