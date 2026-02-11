@@ -1,0 +1,17 @@
+{
+    "version": 1.1,
+    "atDirectives": [
+        {
+            "name": "@theme",
+            "description": "Tailwind CSS theme configuration"
+        },
+        {
+            "name": "@utility",
+            "description": "Defines a utility class in Tailwind CSS"
+        },
+        {
+            "name": "@variant",
+            "description": "Defines a variant in Tailwind CSS"
+        }
+    ]
+}

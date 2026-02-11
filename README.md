@@ -1,84 +1,60 @@
-<!-- 👑 ULTRA PREMIUM GitHub Profile README for cjohnmizo -->
+# Modern Developer Portfolio
 
-<h1 align="center">👑 C. John</h1>
-<h3 align="center">🚀 Flutter Developer • Web Developer • UI Designer</h3>
+A professional, high-performance developer portfolio built with Next.js 16, Tailwind CSS, and Framer Motion.
 
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Poppins&size=26&duration=3000&pause=1000&color=00C2FF&center=true&vCenter=true&width=750&lines=Flutter+Developer;Modern+UI+Designer;Open+Source+Builder;Building+Smart+Village+Systems" alt="Typing SVG" />
-</p>
+## Features
 
-<p align="center">
-  <a href="mailto:johnchangsan39@gmail.com">
-    <img src="https://img.shields.io/badge/Email-johnchangsan39%40gmail.com-red?style=for-the-badge&logo=gmail" />
-  </a>
-  <a href="https://github.com/cjohnmizo">
-    <img src="https://img.shields.io/badge/GitHub-Follow-black?style=for-the-badge&logo=github" />
-  </a>
-  <!-- Optional: add your portfolio -->
-  <!-- <a href="https://your-portfolio.vercel.app">
-    <img src="https://img.shields.io/badge/Portfolio-Visit-blue?style=for-the-badge&logo=vercel" />
-  </a> -->
-</p>
+- ⚡ **Next.js 16 (App Router)** - latest React features.
+- 🎨 **Tailwind CSS v4** - utility-first styling.
+- 🎭 **Framer Motion** - smooth animations and gestures.
+- 📱 **Fully Responsive** - works perfectly on all devices.
+- 🌙 **Dark Mode** - premium dark theme design.
+- 🧱 **Component-Based** - clean modular architecture.
 
----
+## Getting Started
 
-## 🧠 About Me
-- 📱 Flutter Mobile App Developer (Android/Web)
-- 🌐 WordPress + Modern Website Development
-- 🎨 Clean, minimalist, professional UI
-- 🚀 Building directory/news systems for real communities
-- 🤝 Open for freelance & collaboration
+### Prerequisites
 
----
+- Node.js 18.17 or later
 
-## 🔥 Featured Project
-### 🏡 Liankhawpui — Village Directory & News App
-A smart village directory + news/announcement platform.
+### Installation
 
-- ⚙️ Flutter + Supabase
-- 📡 Offline-friendly architecture
-- 👨‍💼 Admin-ready structure
-- 🎨 Modern UI approach
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/portfolio.git
+   cd portfolio
+   ```
 
-🔗 https://github.com/cjohnmizo/liankhawpui
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
 
----
+3. Run the development server:
+   ```bash
+   npm run dev
+   ```
 
-## 🛠 Tech Stack
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=flutter,dart,supabase,firebase,html,css,js,wordpress,git,github,vscode" />
-</p>
+4. Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
----
+## Customization
 
-## 📊 GitHub Analytics
-<p align="center">
-  <!-- NOTE: If these 2 cards show "Error Fetching Resource", self-host GitHub Readme Stats on your own Vercel domain -->
-  <img src="https://github-readme-stats.vercel.app/api?username=cjohnmizo&show_icons=true&theme=tokyonight&border_radius=12" height="165" />
-  <img src="https://streak-stats.demolab.com?user=cjohnmizo&theme=tokyonight&border_radius=12" height="165" />
-</p>
+- **Personal Info:** Edit `src/components/About.tsx`, `Hero.tsx`, and `Contact.tsx`.
+- **Projects:** Update the `projects` array in `src/components/Projects.tsx`.
+- **Skills:** Update the `skills` array in `src/components/Skills.tsx`.
+- **Images:** Replace placeholder images in `src/components` with your own.
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=cjohnmizo&layout=compact&theme=tokyonight&border_radius=12" />
-</p>
+## Deployment on Vercel
 
----
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme).
 
-## 🐍 Contribution Snake
-<p align="center">
-  <img src="https://github.com/cjohnmizo/cjohnmizo/blob/output/github-contribution-grid-snake.svg" alt="snake" />
-</p>
+1. Push your code to a GitHub repository.
+2. Go to [Vercel](https://vercel.com) and sign up/login.
+3. Click **Add New** > **Project**.
+4. Import your GitHub repository.
+5. Vercel will automatically detect Next.js. Click **Deploy**.
+6. Your portfolio is now live! 🚀
 
----
+## License
 
-## 👁 Profile Views
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=cjohnmizo&label=Profile%20views&color=0e75b6&style=for-the-badge" />
-</p>
-
----
-
-## 💎 2026 Mission
-> Building powerful digital systems for villages, schools & organizations.
-
-⭐ If you like my work, please star my repositories and follow!
+This project is licensed under the MIT License.
