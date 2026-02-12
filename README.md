@@ -1,77 +1,66 @@
-# C. John Remthang - Personal Portfolio
+<h1 align="center">👑 C. John</h1> <h3 align="center">Flutter Developer • Web Developer • UI Designer</h3> <p align="center"> <img src="https://readme-typing-svg.demolab.com?font=Poppins&size=26&duration=2800&pause=900&color=00C2FF&center=true&vCenter=true&width=750&lines=Flutter+App+Developer;Modern+Web+Developer;UI%2FUX+Focused+Builder;Building+Smart+Digital+Systems" /> </p> <p align="center"> <a href="https://cjohnmizo.vercel.app"> <img src="https://img.shields.io/badge/🌐 Portfolio-Visit-blue?style=for-the-badge&logo=vercel"/> </a> <a href="mailto:johnchangsan39@gmail.com"> <img src="https://img.shields.io/badge/Email-johnchangsan39%40gmail.com-red?style=for-the-badge&logo=gmail"/> </a> <a href="https://github.com/cjohnmizo"> <img src="https://img.shields.io/badge/GitHub-Follow-black?style=for-the-badge&logo=github"/> </a> </p>
+🧠 About Me
 
-My personal portfolio website showcasing my work as a Full-Stack Developer & IT Educator.
+I build modern mobile apps, websites, and digital systems with clean UI and real-world functionality.
 
-## About This Project
+📱 Flutter Mobile App Developer
 
-This is my personal portfolio built with Next.js 16, Tailwind CSS, and Framer Motion. It features my professional experience, projects, and skills.
+🌐 Modern Website & WordPress Developer
 
-**Note:** This repository is for my personal use only and is not intended as a template.
+🎨 Clean, professional UI/UX focused
 
-## Tech Stack
+🚀 Building smart systems for villages & organizations
 
-- **Framework:** Next.js 16 (App Router)
-- **Styling:** Tailwind CSS v4
-- **Animations:** Framer Motion
-- **Language:** TypeScript
-- **Deployment:** Vercel
+💼 Open for freelance projects & collaboration
 
-## Features
+🚀 Featured Project
+🏡 Liankhawpui — Smart Village Directory System
 
-- ⚡ Server-side rendering with Next.js
-- 🎨 Modern dark theme design
-- 📱 Fully responsive layout
-- 🎭 Smooth animations and transitions
-- 🔍 SEO optimized with OpenGraph and Twitter Cards
-- 📄 Printable resume page
+A modern village directory & news management platform.
 
-## Local Development
+Core Features
 
-```bash
-# Install dependencies
-npm install
+Member directory system
 
-# Run development server
-npm run dev
+News & announcements
 
-# Build for production
-npm run build
+Admin dashboard
 
-# Start production server
-npm start
-```
+Clean modern UI
 
-## Project Structure
+Flutter based architecture
 
-```
-src/
-├── app/              # Next.js app router pages
-│   ├── layout.tsx    # Root layout with metadata
-│   ├── page.tsx      # Homepage
-│   ├── resume/       # Resume page
-│   └── not-found.tsx # Custom 404 page
-├── components/       # React components
-│   ├── Navbar.tsx
-│   ├── Hero.tsx
-│   ├── About.tsx
-│   ├── Projects.tsx
-│   ├── Skills.tsx
-│   ├── Contact.tsx
-│   └── Footer.tsx
-└── types/           # TypeScript type definitions
-```
+🔗 https://github.com/cjohnmizo/liankhawpui
 
-## Deployment
+🛠 Tech Stack
+<p align="center"> <img src="https://skillicons.dev/icons?i=flutter,dart,firebase,supabase,html,css,js,wordpress,git,github,vscode" /> </p>
+🆕 Latest Projects
+<!-- LATEST-PROJECTS:START --> <!-- LATEST-PROJECTS:END -->
+📊 GitHub Analytics
+<p align="center"> <img src="https://streak-stats.demolab.com?user=cjohnmizo&theme=tokyonight&border_radius=12"/> </p>
+🏆 Developer Trophy
+<p align="center"> <img src="https://github-profile-trophy.vercel.app/?username=cjohnmizo&theme=tokyonight&no-frame=true&row=1&column=6"/> </p>
+🐍 Contribution Snake
+<p align="center"> <img src="https://github.com/cjohnmizo/cjohnmizo/blob/output/github-contribution-grid-snake.svg"/> </p>
+👁 Profile Visitors
+<p align="center"> <img src="https://komarev.com/ghpvc/?username=cjohnmizo&label=Profile%20views&color=0e75b6&style=for-the-badge"/> </p>
+🌐 Portfolio
 
-Deployed on Vercel at [cjohnmizo.vercel.app](https://cjohnmizo.vercel.app)
+Visit my full professional portfolio:
 
-## Contact
+🔗 https://cjohnmizo.vercel.app
 
-- **Email:** johnchangsan39@gmail.com
-- **Location:** Khawlian, Mizoram
-- **GitHub:** [github.com/cjohnmizo](https://github.com/cjohnmizo/)
-- **LinkedIn:** [linkedin.com/in/c-john-remthang](https://www.linkedin.com/in/c-john-remthang/)
+📩 Contact Me
 
----
+Email: johnchangsan39@gmail.com
 
-© 2026 C. John Remthang. All rights reserved.
+Portfolio: https://cjohnmizo.vercel.app
+
+GitHub: https://github.com/cjohnmizo
+
+💎 2026 Mission
+
+Building powerful digital systems for villages, schools and organizations.
+
+⭐ Star my repositories if helpful
+🚀 Follow my journey as a developer
