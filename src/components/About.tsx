@@ -28,7 +28,7 @@ const About = () => {
                             <span className="w-2 h-8 bg-emerald-500 rounded-full" />
                             About Me
                         </h3>
-                        <div className="space-y-6 text-gray-400 leading-relaxed text-lg">
+                        <div className="space-y-6 text-gray-400 leading-relaxed text-sm sm:text-base md:text-lg">
                             <p>
                                 I am an <span className="text-indigo-400 font-medium">IT Consultant</span> and <span className="text-emerald-400 font-medium">Software Developer</span> base in Khawlian, Mizoram. My journey in technology began at NIELIT Aizawl in 2018, and has evolved into a passion for architecting robust digital solutions that solve real-world problems.
                             </p>
@@ -54,14 +54,14 @@ const About = () => {
                                 Experience
                             </h3>
                             <div className="space-y-6">
-                                <div className="bg-zinc-900 border border-white/5 p-6 rounded-xl hover:border-indigo-500/30 transition-colors">
+                                <div className="bg-zinc-900 border border-white/5 p-4 sm:p-6 rounded-xl hover:border-indigo-500/30 transition-colors">
                                     <h4 className="text-xl font-bold text-white">Vocational Teacher (IT & ITeS)</h4>
                                     <p className="text-indigo-400 text-sm mb-2">Government of Mizoram • Present</p>
                                     <p className="text-gray-400 text-sm">
                                         Training students in Domestic Data Entry Operations, fostering digital literacy, and preparing the workforce for the IT sector.
                                     </p>
                                 </div>
-                                <div className="bg-zinc-900 border border-white/5 p-6 rounded-xl hover:border-emerald-500/30 transition-colors">
+                                <div className="bg-zinc-900 border border-white/5 p-4 sm:p-6 rounded-xl hover:border-emerald-500/30 transition-colors">
                                     <h4 className="text-xl font-bold text-white">IT Consultant & Developer</h4>
                                     <p className="text-emerald-400 text-sm mb-2">Freelance • 2018 - Present</p>
                                     <p className="text-gray-400 text-sm">

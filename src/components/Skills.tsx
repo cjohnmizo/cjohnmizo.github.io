@@ -43,7 +43,7 @@ function Card({ skillGroup, index }: { skillGroup: any, index: number }) {
             transition={{ duration: 0.5, delay: index * 0.1 }}
             viewport={{ once: true }}
             onMouseMove={handleMouseMove}
-            className="group relative border border-white/5 rounded-none bg-zinc-900/50 px-8 py-8 hover:bg-zinc-900/80 transition-colors duration-300"
+            className="group relative border border-white/5 rounded-none bg-zinc-900/50 px-4 py-6 sm:px-8 sm:py-8 hover:bg-zinc-900/80 transition-colors duration-300"
         >
             {/* Tech Corners */}
             <div className="absolute top-0 left-0 w-3 h-3 border-t border-l border-indigo-500/50" />
@@ -104,7 +104,7 @@ const Skills = () => {
                     </p>
                 </motion.div>
 
-                <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
                     {skills.map((skillGroup, index) => (
                         <Card key={skillGroup.category} skillGroup={skillGroup} index={index} />
                     ))}

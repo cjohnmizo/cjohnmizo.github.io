@@ -121,11 +121,11 @@ function ProjectCard({ project, index }: { project: any, index: number }) {
                 </div>
             </div>
 
-            <div className="p-6" style={{ transform: "translateZ(20px)" }}>
+            <div className="p-4 sm:p-6" style={{ transform: "translateZ(20px)" }}>
                 <h3 className="text-xl font-bold font-mono text-white mb-3 group-hover:text-emerald-400 transition-colors">
                     {project.title}_
                 </h3>
-                <p className="text-gray-400 text-sm mb-6 line-clamp-3 leading-relaxed font-mono text-xs border-l-2 border-white/10 pl-3">
+                <p className="text-gray-400 text-xs sm:text-sm mb-6 line-clamp-3 leading-relaxed font-mono border-l-2 border-white/10 pl-3">
                     {project.description}
                 </p>
                 <div className="flex flex-wrap gap-2 mt-auto">

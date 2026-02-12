@@ -20,7 +20,7 @@ const Hero = () => {
                         repeat: Infinity,
                         ease: "linear"
                     }}
-                    className="absolute top-[-10%] left-[-10%] w-[500px] h-[500px] bg-indigo-500/20 rounded-full blur-[120px]"
+                    className="absolute top-[-10%] left-[-10%] w-[300px] h-[300px] md:w-[500px] md:h-[500px] bg-indigo-500/20 rounded-full blur-[80px] md:blur-[120px]"
                 />
                 <motion.div
                     animate={{
@@ -33,7 +33,7 @@ const Hero = () => {
                         repeat: Infinity,
                         ease: "linear"
                     }}
-                    className="absolute bottom-[-10%] right-[-10%] w-[500px] h-[500px] bg-emerald-500/20 rounded-full blur-[120px]"
+                    className="absolute bottom-[-10%] right-[-10%] w-[300px] h-[300px] md:w-[500px] md:h-[500px] bg-emerald-500/20 rounded-full blur-[80px] md:blur-[120px]"
                 />
                 <motion.div
                     animate={{
@@ -46,7 +46,7 @@ const Hero = () => {
                         repeat: Infinity,
                         ease: "linear"
                     }}
-                    className="absolute top-[50%] left-[50%] transform -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-purple-500/10 rounded-full blur-[120px]"
+                    className="absolute top-[50%] left-[50%] transform -translate-x-1/2 -translate-y-1/2 w-[350px] h-[350px] md:w-[600px] md:h-[600px] bg-purple-500/10 rounded-full blur-[80px] md:blur-[120px]"
                 />
             </div>
 
@@ -81,7 +81,7 @@ const Hero = () => {
                     initial={{ opacity: 0, y: 40 }}
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ delay: 0.4, duration: 1, ease: "easeOut" }}
-                    className="text-4xl md:text-5xl lg:text-7xl font-bold tracking-tight text-white mb-6 leading-tight"
+                    className="text-3xl sm:text-4xl md:text-5xl lg:text-7xl font-bold tracking-tight text-white mb-6 leading-tight"
                 >
                     Full-Stack Developer <br className="hidden md:block" />
                     <span className="text-transparent bg-clip-text bg-gradient-to-r from-indigo-400 to-emerald-400">& IT Educator</span>
@@ -92,7 +92,7 @@ const Hero = () => {
                     initial={{ opacity: 0, y: 20 }}
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ delay: 0.4, duration: 0.5 }}
-                    className="text-lg md:text-xl text-gray-400 max-w-2xl mb-10 leading-relaxed"
+                    className="text-base sm:text-lg md:text-xl text-gray-400 max-w-2xl mb-10 leading-relaxed px-4"
                 >
                     Transforming complex ideas into high-performance applications and empowering the next generation of tech talent in Mizoram.
                 </motion.p>

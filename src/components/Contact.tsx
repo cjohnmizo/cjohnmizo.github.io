@@ -65,7 +65,7 @@ const Contact = () => {
                                 </div>
                                 <div>
                                     <h4 className="text-lg font-medium text-white">Social Media</h4>
-                                    <div className="flex gap-4 mt-2">
+                                    <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 mt-2">
 
                                         <a href="https://www.instagram.com/c.john_mizo/" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-pink-500 transition-colors flex items-center gap-2">
                                             <Instagram className="w-5 h-5" />
@@ -104,7 +104,7 @@ const Contact = () => {
                         whileInView={{ opacity: 1, x: 0 }}
                         transition={{ duration: 0.5, delay: 0.4 }}
                         viewport={{ once: true }}
-                        className="bg-zinc-900/50 p-8 rounded-2xl border border-white/5"
+                        className="bg-zinc-900/50 p-4 sm:p-6 md:p-8 rounded-2xl border border-white/5"
                     >
                         <form onSubmit={handleSubmit} className="space-y-6">
                             <div>
