@@ -1,8 +1,11 @@
 import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
-import About from "@/components/About";
-import Skills from "@/components/Skills";
+import Services from "@/components/Services";
 import Projects from "@/components/Projects";
+import Skills from "@/components/Skills";
+import Process from "@/components/Process";
+import About from "@/components/About";
+import Testimonials from "@/components/Testimonials";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
 
@@ -11,9 +14,12 @@ export default function Home() {
     <main className="min-h-screen bg-[#0a0a0a] text-white selection:bg-blue-500/30">
       <Navbar />
       <Hero />
-      <About />
-      <Skills />
+      <Services />
       <Projects />
+      <Skills />
+      <Process />
+      <About />
+      <Testimonials />
       <Contact />
       <Footer />
     </main>

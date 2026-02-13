@@ -23,9 +23,10 @@ const Navbar = () => {
     }, []);
 
     const navLinks = [
-        { name: "About", to: "about" },
-        { name: "Skills", to: "skills" },
+        { name: "Services", to: "services" },
         { name: "Projects", to: "projects" },
+        { name: "Skills", to: "skills" },
+        { name: "About", to: "about" },
         { name: "Contact", to: "contact" },
     ];
 
@@ -35,8 +36,8 @@ const Navbar = () => {
             animate={{ y: 0 }}
             transition={{ duration: 0.6, ease: "easeOut" }}
             className={`fixed w-full z-50 transition-all duration-500 ${scrolled
-                    ? "glass shadow-lg shadow-black/20"
-                    : "bg-transparent"
+                ? "glass shadow-lg shadow-black/20"
+                : "bg-transparent"
                 }`}
         >
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
