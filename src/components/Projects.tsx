@@ -80,13 +80,13 @@ function ProjectCard({ project, index }: { project: any, index: number }) {
                 rotateX,
                 transformStyle: "preserve-3d",
             }}
-            className="group relative bg-zinc-950 border border-white/5 overflow-hidden transition-colors duration-300"
+            className="group relative glass overflow-hidden transition-all duration-300 rounded-xl card-hover"
         >
-            {/* Tech Corners */}
-            <div className="absolute top-0 left-0 w-4 h-4 border-t-2 border-l-2 border-emerald-500/50 z-20" />
-            <div className="absolute top-0 right-0 w-4 h-4 border-t-2 border-r-2 border-emerald-500/50 z-20" />
-            <div className="absolute bottom-0 left-0 w-4 h-4 border-b-2 border-l-2 border-emerald-500/50 z-20" />
-            <div className="absolute bottom-0 right-0 w-4 h-4 border-b-2 border-r-2 border-emerald-500/50 z-20" />
+            {/* Modern Corners */}
+            <div className="absolute top-0 left-0 w-5 h-5 border-t-2 border-l-2 border-emerald-500/50 z-20 group-hover:border-emerald-500 transition-colors" />
+            <div className="absolute top-0 right-0 w-5 h-5 border-t-2 border-r-2 border-emerald-500/50 z-20 group-hover:border-emerald-500 transition-colors" />
+            <div className="absolute bottom-0 left-0 w-5 h-5 border-b-2 border-l-2 border-emerald-500/50 z-20 group-hover:border-emerald-500 transition-colors" />
+            <div className="absolute bottom-0 right-0 w-5 h-5 border-b-2 border-r-2 border-emerald-500/50 z-20 group-hover:border-emerald-500 transition-colors" />
 
             <div
                 style={{ transform: "translateZ(75px)", transformStyle: "preserve-3d" }}
@@ -102,22 +102,26 @@ function ProjectCard({ project, index }: { project: any, index: number }) {
                     className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110 grayscale group-hover:grayscale-0"
                 />
                 <div className="absolute inset-0 bg-black/80 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center gap-4 border-y border-emerald-500/20">
-                    <a
+                    <motion.a
                         href={project.github}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="p-3 bg-zinc-900 rounded-none hover:bg-emerald-500 text-emerald-500 hover:text-zinc-900 transition-all border border-emerald-500"
+                        whileHover={{ scale: 1.1 }}
+                        whileTap={{ scale: 0.9 }}
+                        className="p-3 glass rounded-lg hover:bg-emerald-500 text-emerald-400 hover:text-zinc-900 transition-all border border-emerald-500/50 hover:border-emerald-500"
                     >
                         <Github className="w-6 h-6" />
-                    </a>
-                    <a
+                    </motion.a>
+                    <motion.a
                         href={project.demo}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="p-3 bg-zinc-900 rounded-none hover:bg-emerald-500 text-emerald-500 hover:text-zinc-900 transition-all border border-emerald-500"
+                        whileHover={{ scale: 1.1 }}
+                        whileTap={{ scale: 0.9 }}
+                        className="p-3 glass rounded-lg hover:bg-emerald-500 text-emerald-400 hover:text-zinc-900 transition-all border border-emerald-500/50 hover:border-emerald-500"
                     >
                         <ExternalLink className="w-6 h-6" />
-                    </a>
+                    </motion.a>
                 </div>
             </div>
 
@@ -154,8 +158,8 @@ const Projects = () => {
                     viewport={{ once: true }}
                     className="text-center mb-16"
                 >
-                    <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">Featured Projects</h2>
-                    <div className="w-20 h-1 bg-emerald-500 mx-auto rounded-full" />
+                    <h2 className="text-3xl md:text-4xl font-bold gradient-text mb-4">Featured Projects</h2>
+                    <div className="w-20 h-1 bg-gradient-to-r from-emerald-500 via-cyan-500 to-indigo-500 mx-auto rounded-full" />
                     <p className="mt-4 text-gray-400">Highlighting my work in mobile and web development.</p>
                 </motion.div>
 

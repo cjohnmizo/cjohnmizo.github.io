@@ -4,7 +4,12 @@ import { motion } from "framer-motion";
 
 const About = () => {
     return (
-        <section id="about" className="py-24 bg-zinc-950/50">
+        <section id="about" className="py-24 bg-gradient-to-b from-zinc-950 to-zinc-900 relative overflow-hidden">
+            {/* Background Elements */}
+            <div className="absolute inset-0 overflow-hidden pointer-events-none">
+                <div className="absolute top-20 right-10 w-96 h-96 bg-indigo-500/5 rounded-full blur-[120px]" />
+                <div className="absolute bottom-20 left-10 w-96 h-96 bg-purple-500/5 rounded-full blur-[120px]" />
+            </div>
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <motion.div
                     initial={{ opacity: 0, y: 20 }}
@@ -13,8 +18,8 @@ const About = () => {
                     viewport={{ once: true }}
                     className="text-center mb-20"
                 >
-                    <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">Professional Profile</h2>
-                    <div className="w-20 h-1 bg-indigo-600 mx-auto rounded-full" />
+                    <h2 className="text-3xl md:text-4xl font-bold gradient-text mb-4">Professional Profile</h2>
+                    <div className="w-20 h-1 bg-gradient-to-r from-indigo-600 via-purple-600 to-emerald-600 mx-auto rounded-full" />
                 </motion.div>
 
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">
@@ -54,20 +59,26 @@ const About = () => {
                                 Experience
                             </h3>
                             <div className="space-y-6">
-                                <div className="bg-zinc-900 border border-white/5 p-4 sm:p-6 rounded-xl hover:border-indigo-500/30 transition-colors">
-                                    <h4 className="text-xl font-bold text-white">Vocational Teacher (IT & ITeS)</h4>
-                                    <p className="text-indigo-400 text-sm mb-2">Government of Mizoram • Present</p>
-                                    <p className="text-gray-400 text-sm">
+                                <motion.div
+                                    whileHover={{ scale: 1.02, y: -4 }}
+                                    className="glass p-4 sm:p-6 rounded-xl hover:border-indigo-500/50 transition-all duration-300 group"
+                                >
+                                    <h4 className="text-xl font-bold text-white group-hover:text-indigo-400 transition-colors">Vocational Teacher (IT & ITeS)</h4>
+                                    <p className="text-indigo-400 text-sm mb-2 font-medium">Government of Mizoram • Present</p>
+                                    <p className="text-gray-400 text-sm leading-relaxed">
                                         Training students in Domestic Data Entry Operations, fostering digital literacy, and preparing the workforce for the IT sector.
                                     </p>
-                                </div>
-                                <div className="bg-zinc-900 border border-white/5 p-4 sm:p-6 rounded-xl hover:border-emerald-500/30 transition-colors">
-                                    <h4 className="text-xl font-bold text-white">IT Consultant & Developer</h4>
-                                    <p className="text-emerald-400 text-sm mb-2">Freelance • 2018 - Present</p>
-                                    <p className="text-gray-400 text-sm">
+                                </motion.div>
+                                <motion.div
+                                    whileHover={{ scale: 1.02, y: -4 }}
+                                    className="glass p-4 sm:p-6 rounded-xl hover:border-emerald-500/50 transition-all duration-300 group"
+                                >
+                                    <h4 className="text-xl font-bold text-white group-hover:text-emerald-400 transition-colors">IT Consultant & Developer</h4>
+                                    <p className="text-emerald-400 text-sm mb-2 font-medium">Freelance • 2018 - Present</p>
+                                    <p className="text-gray-400 text-sm leading-relaxed">
                                         Architecting mobile and web solutions for local businesses and communities. Specializing in cross-platform development with Flutter and modern web stacks.
                                     </p>
-                                </div>
+                                </motion.div>
                             </div>
                         </div>
 
@@ -77,18 +88,27 @@ const About = () => {
                                 Education
                             </h3>
                             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                                <div className="bg-zinc-900 border border-white/5 p-4 rounded-lg">
+                                <motion.div
+                                    whileHover={{ scale: 1.05 }}
+                                    className="glass p-4 rounded-lg hover:border-purple-500/50 transition-all duration-300"
+                                >
                                     <div className="text-white font-medium">Master of Computer Application</div>
-                                    <div className="text-gray-500 text-sm">74% Score</div>
-                                </div>
-                                <div className="bg-zinc-900 border border-white/5 p-4 rounded-lg">
+                                    <div className="text-purple-400 text-sm font-medium">74% Score</div>
+                                </motion.div>
+                                <motion.div
+                                    whileHover={{ scale: 1.05 }}
+                                    className="glass p-4 rounded-lg hover:border-purple-500/50 transition-all duration-300"
+                                >
                                     <div className="text-white font-medium">Bachelor of Computer Application</div>
-                                    <div className="text-gray-500 text-sm">70% Score</div>
-                                </div>
-                                <div className="bg-zinc-900 border border-white/5 p-4 rounded-lg sm:col-span-2">
+                                    <div className="text-purple-400 text-sm font-medium">70% Score</div>
+                                </motion.div>
+                                <motion.div
+                                    whileHover={{ scale: 1.05 }}
+                                    className="glass p-4 rounded-lg sm:col-span-2 hover:border-purple-500/50 transition-all duration-300"
+                                >
                                     <div className="text-white font-medium">Industrial Training & Cyber Security</div>
-                                    <div className="text-gray-500 text-sm">82% Score</div>
-                                </div>
+                                    <div className="text-purple-400 text-sm font-medium">82% Score</div>
+                                </motion.div>
                             </div>
                         </div>
                     </motion.div>

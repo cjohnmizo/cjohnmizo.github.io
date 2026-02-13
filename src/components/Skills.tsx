@@ -43,13 +43,13 @@ function Card({ skillGroup, index }: { skillGroup: any, index: number }) {
             transition={{ duration: 0.5, delay: index * 0.1 }}
             viewport={{ once: true }}
             onMouseMove={handleMouseMove}
-            className="group relative border border-white/5 rounded-none bg-zinc-900/50 px-4 py-6 sm:px-8 sm:py-8 hover:bg-zinc-900/80 transition-colors duration-300"
+            className="group relative glass rounded-xl px-4 py-6 sm:px-8 sm:py-8 hover:border-indigo-500/50 transition-all duration-300 card-hover"
         >
-            {/* Tech Corners */}
-            <div className="absolute top-0 left-0 w-3 h-3 border-t border-l border-indigo-500/50" />
-            <div className="absolute top-0 right-0 w-3 h-3 border-t border-r border-indigo-500/50" />
-            <div className="absolute bottom-0 left-0 w-3 h-3 border-b border-l border-indigo-500/50" />
-            <div className="absolute bottom-0 right-0 w-3 h-3 border-b border-r border-indigo-500/50" />
+            {/* Modern Corners */}
+            <div className="absolute top-0 left-0 w-4 h-4 border-t-2 border-l-2 border-indigo-500/50 group-hover:border-indigo-500 transition-colors" />
+            <div className="absolute top-0 right-0 w-4 h-4 border-t-2 border-r-2 border-indigo-500/50 group-hover:border-indigo-500 transition-colors" />
+            <div className="absolute bottom-0 left-0 w-4 h-4 border-b-2 border-l-2 border-indigo-500/50 group-hover:border-indigo-500 transition-colors" />
+            <div className="absolute bottom-0 right-0 w-4 h-4 border-b-2 border-r-2 border-indigo-500/50 group-hover:border-indigo-500 transition-colors" />
 
             <motion.div
                 className="pointer-events-none absolute -inset-px opacity-0 transition duration-300 group-hover:opacity-100"
@@ -71,7 +71,7 @@ function Card({ skillGroup, index }: { skillGroup: any, index: number }) {
                     {skillGroup.items.map((item: string) => (
                         <span
                             key={item}
-                            className="bg-indigo-500/5 hover:bg-indigo-500/10 text-indigo-300 hover:text-indigo-200 px-3 py-1.5 text-xs font-mono transition-all border border-indigo-500/20 hover:border-indigo-500/40"
+                            className="bg-indigo-500/10 hover:bg-indigo-500/20 text-indigo-300 hover:text-indigo-200 px-3 py-1.5 text-xs font-mono transition-all border border-indigo-500/30 hover:border-indigo-500/60 rounded-md cursor-default"
                         >
                             {item}
                         </span>
@@ -97,8 +97,8 @@ const Skills = () => {
                     viewport={{ once: true }}
                     className="text-center mb-16"
                 >
-                    <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">Technical Proficiency</h2>
-                    <div className="w-20 h-1 bg-indigo-600 mx-auto rounded-full" />
+                    <h2 className="text-3xl md:text-4xl font-bold gradient-text mb-4">Technical Proficiency</h2>
+                    <div className="w-20 h-1 bg-gradient-to-r from-indigo-600 via-purple-600 to-emerald-600 mx-auto rounded-full" />
                     <p className="mt-4 text-gray-400 max-w-2xl mx-auto">
                         A robust set of technologies I leverage to build scalable, high-performance web and mobile applications.
                     </p>
