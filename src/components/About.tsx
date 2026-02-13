@@ -97,7 +97,7 @@ const About = () => {
                                     </div>
                                     <div>
                                         <div className="text-sm text-gray-500">Languages</div>
-                                        <div className="text-white">English, Hindi, Mizo</div>
+                                        <div className="text-white">English, Mizo</div>
                                     </div>
                                 </div>
                             </div>
