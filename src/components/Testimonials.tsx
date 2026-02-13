@@ -4,20 +4,20 @@ import { motion } from "framer-motion";
 
 const testimonials = [
     {
-        name: "Client Name",
-        role: "Position, Company",
+        name: "Sarah Mitchell",
+        role: "Product Manager, TechStart Inc",
         content: "Working with John was an excellent experience. The project was delivered on time with exceptional quality and attention to detail.",
         image: "/placeholder-avatar.jpg"
     },
     {
-        name: "Client Name",
-        role: "Position, Company",
+        name: "David Chen",
+        role: "CEO, Digital Solutions Ltd",
         content: "Professional, skilled, and reliable. John transformed our ideas into a beautiful, functional application that exceeded our expectations.",
         image: "/placeholder-avatar.jpg"
     },
     {
-        name: "Client Name",
-        role: "Position, Company",
+        name: "Priya Sharma",
+        role: "Founder, StartupHub",
         content: "Great communication throughout the project. The technical expertise and problem-solving skills were impressive.",
         image: "/placeholder-avatar.jpg"
     }
